@@ -1,5 +1,5 @@
 module BaseTypes
-  class Edge < Types::BaseObject
+  class Edge < BaseTypes::Object
     # add `node` and `cursor` fields, as well as `node_type(...)` override
     include GraphQL::Types::Relay::EdgeBehaviors
   end
